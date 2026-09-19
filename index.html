@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>個人報名Indivdual Registration</h1>
+    <h2><span class="title">基本資料/Basic Infomation</span></h2>
+    <section> <!--基本資料-->
+        <form action="" method="post">
+            <div> <!--姓名-->
+                <label for="name">姓名/Name<span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="請輸入姓名" required>
+            </div>
+            <div> <!--性別-->
+                <label for="gender">性別/Gender</label>
+                <input type="radio" name="gender" name="male" id="male">
+                <label for="gender">男/male</label>
+                <input type="radio" name="gender" name="female" id="female">
+                <label for="gender">女/female</label>
+            </div>
+            <div> <!--國籍-->
+                <label for="nationality">國籍/Nationality</label>
+                <input type="radio" name="nationality" id="roc">
+                <label for="roc">本國國籍/ROC Citizens</label>
+                <input type="radio" name="nationality" id="other">
+                <label for="other">外國國籍/Non-Citizens</label>
+            </div>
+            <div> <!--身分證號-->
+                <label for="idnumber">身分證號/ID Number<span class="required">*</span></label>
+                <input type="text" name="idnumber" id="idnumber" placeholder="身分證號或護照號碼" required>
+            </div>
+            <div> <!--出生日期-->
+                <label for="year">出生日期/Date of Birth</label>
+                <select name="year" id="year"> <!--年-->
+                    <option>年Year</option>
+                    <option>2026</option>
+                    <option>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                    <option>2007</option>
+                    <option>2006</option>
+                    <option>2005</option>
+                    <option>2004</option>
+                    <option>2003</option>
+                    <option>2002</option>
+                    <option>2001</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1991</option>
+                    <option>1990</option>
+                    <option>1989</option>
+                    <option>1988</option>
+                    <option>1987</option>
+                    <option>1986</option>
+                    <option>1985</option>
+                    <option>1984</option>
+                    <option>1983</option>
+                    <option>1982</option>
+                    <option>1981</option>
+                    <option>1980</option>
+                    <option>1979</option>
+                    <option>1978</option>
+                    <option>1977</option>
+                    <option>1976</option>
+                    <option>1975</option>
+                    <option>1974</option>
+                    <option>1973</option>
+                    <option>1972</option>
+                    <option>1971</option>
+                    <option>1970</option>
+                    <option>1969</option>
+                    <option>1968</option>
+                    <option>1967</option>
+                    <option>1966</option>
+                    <option>1965</option>
+                    <option>1964</option>
+                    <option>1963</option>
+                    <option>1962</option>
+                    <option>1961</option>
+                    <option>1960</option>
+                    <option>1959</option>
+                    <option>1958</option>
+                    <option>1957</option>
+                    <option>1956</option>
+                    <option>1955</option>
+                    <option>1954</option>
+                    <option>1953</option>
+                    <option>1952</option>
+                    <option>1951</option>
+                    <option>1950</option>
+                </select>
+                <select name="month" id="month"> <!--月-->
+                    <option>月Month</option>
+                    <option>1月</option>
+                    <option>2月</option>
+                    <option>3月</option>
+                    <option>4月</option>
+                    <option>5月</option>
+                    <option>6月</option>
+                    <option>7月</option>
+                    <option>8月</option>
+                    <option>9月</option>
+                    <option>10月</option>
+                    <option>11月</option>
+                    <option>12月</option>
+                </select>
+                <select name="day" id="day"> <!--日-->
+                    <option>日Day</option>
+                    <option>1號</option>
+                    <option>2號</option>
+                    <option>3號</option>
+                    <option>4號</option>
+                    <option>5號</option>
+                    <option>6號</option>
+                    <option>7號</option>
+                    <option>8號</option>
+                    <option>9號</option>
+                    <option>10號</option>
+                    <option>11號</option>
+                    <option>12號</option>
+                    <option>13號</option>
+                    <option>14號</option>
+                    <option>15號</option>
+                    <option>16號</option>
+                    <option>17號</option>
+                    <option>18號</option>
+                    <option>19號</option>
+                    <option>20號</option>
+                    <option>21號</option>
+                    <option>22號</option>
+                    <option>23號</option>
+                    <option>24號</option>
+                    <option>25號</option>
+                    <option>26號</option>
+                    <option>27號</option>
+                    <option>28號</option>
+                    <option>29號</option>
+                    <option>30號</option>
+                    <option>31號</option>
+                </select>
+            </div>
+            <div> <!--電子信箱-->
+                <label for="mail">電子信箱/Email<span class="required">*</span></label>
+                <input type="email" id="mail" name="mail" placeholder="example@mail.com" required>
+            </div>
+            <div> <!--聯絡電話-->
+                <label for="phone">聯絡電話/Contact Phone 手機/Mobile</label>
+                <input type="phone" id="phone" name="phone" placeholder="0922053012">
+                <label for="home">住家/Home</label>
+                <input type="phone" id="home" name="home" placeholder="0225855659">
+                <label for="office">公司/Office</label>
+                <input type="phone" id="office" name="office">
+            </div>
+            <div> <!--通訊地址-->
+                <label for="city">通訊地址/Mailing Address</label>
+                <select name="city" id="city"> <!--縣市-->
+                    <option>請選擇縣市別Country/City</option>
+                    <option>台北市</option>
+                    <option>新北市</option>
+                    <option>桃園市</option>
+                </select>
+                <select name="township" id="township"> <!--台北區-->
+                    <option>請選擇鄉鎮區別Township</option>
+                    <option>文山區</option>
+                    <option>大安區</option>
+                    <option>信義區</option>
+                    <option>中山區</option>
+                    <option>松山區</option>
+                </select>
+                <label for="postcode">郵遞區號</label>
+                <input type="text" id="postcode" name="postcode" placeholder="郵遞區號" required>
+                <input type="text" id="address2" name="address2" placeholder="例如：昌吉街55號2樓206室" required>
+            </div>
+            <div> <!--緊急聯絡人-->
+                <label for="emergency">緊急聯絡人姓名/Name of Emergency Contact</label>
+                <input type="text" id="emergency" name="emergency">
+                <label for="relationship">關係/Relationship</label>
+                <input type="text" id="relationship" name="relationship">
+                <label for="emphone">電話/Phone</label>
+                <input type="phone" id="emphone" name="emphone">
+            </div>
+        </form>
+    </section>
+    <hr>
+    <h2><span class="title">競賽項目資料/Race Category Information</span></h2>
+    <section> <!--競賽項目資料-->
+        <form action="" method="post">
+            <div>
+                <input type="checkbox" id="km" name="km">
+                <label for="marathon">9KM（NTD800）</label>
+                <select>
+                    <option>請選擇衣服尺寸</option>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>2XL</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="km2" name="km2">
+                <label for="marathon">3KM（NTD650）</label>
+                <select>
+                    <option>請選擇衣服尺寸</option>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>2XL</option>
+                </select>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <h2><span class="title">報到方式（二擇一）/Check-in Method</span></h2>
+    <section> <!--報到方式-->
+        <form action="" method="post">
+            <div>
+                <label for="postal">郵寄代理報到/Postal delivery Check-in</label>
+                <input type="radio" id="yes" name="postal">
+                <label for="yes">是/Y（需額外付費，限台灣本島）</label>
+                <input type="radio" id="no" name="postal">
+                <label for="no">否/N</label>
+            </div>
+            <div>
+                <input type="radio" id="to_location" name="to_location">
+                <label for="to_location">地點：花博爭豔館（台北市中山區玉門街1號）</label>
+                <label for="date">時間：</label>
+                <input type="date" value="2026-12-17">
+                ~
+                <input type="date" value="2026-12-18">
+            </div>
+        </form>
+    </section>
+    <hr>
+    <h2><span class="title">其他/Other</span></h2>
+    <section> <!--其他-->
+        <form action="" method="post">
+            <div><!--個人網站-->
+                <label for="website">個人網站/Website（選填）</label>
+                <input type="url" id="website" name="website" placeholder="https://">
+            </div>
+            <div> <!--備註-->
+                <label for="note">備註/Note</label>
+                <textarea name="note" id="note" cols="50" rows="5" placeholder="如有特殊需求請於此說明"></textarea>
+            </div>
+            <div> <!--上傳證件照-->
+                <label for="photo">上傳證件照/Upload Photo</label>
+                <input type="file" id="photo" name="photo" accept="image/jpg, image/png">
+            </div>
+        </form>
+    </section>
+    <hr>
+</body>
+<footer>
+    <form action="">
+        <br>
+        <button type="submit" class="btn_submit">送出報名</button>
+        <button type="reset" class="btn_reset">清除重填</button>
+    </form>
+</footer>
+
+</html>
