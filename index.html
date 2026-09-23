@@ -40,7 +40,7 @@
             </div>
             <div> <!--出生日期-->
                 <label>出生日期/Date of Birth</label>
-                <select name="year" id="year"> <!--年-->
+                <select name="bth-year" id="year"> <!--年-->
                     <option value="">年Year</option>
                     <option value="2026">2026</option>
                     <option value="2025">2025</option>
@@ -120,7 +120,7 @@
                     <option value="1951">1951</option>
                     <option value="1950">1950</option>
                 </select>
-                <select name="month" id="month"> <!--月-->
+                <select name="bth-month" id="month"> <!--月-->
                     <option value="">月Month</option>
                     <option value="1">1月</option>
                     <option value="2">2月</option>
@@ -135,7 +135,7 @@
                     <option value="11">11月</option>
                     <option value="12">12月</option>
                 </select>
-                <select name="day" id="day"> <!--日-->
+                <select name="bth-day" id="day"> <!--日-->
                     <option value="">日Day</option>
                     <option value="1">1號</option>
                     <option value="2">2號</option>
@@ -186,22 +186,21 @@
             <div> <!--通訊地址-->
                 <label for="city">通訊地址/Mailing Address</label>
                 <select name="city" id="city"> <!--縣市-->
-                    <option>請選擇縣市別Country/City</option>
-                    <option>台北市</option>
-                    <option>新北市</option>
-                    <option>桃園市</option>
+                    <option value="">請選擇縣市別Country/City</option>
+                    <option value="台北市">台北市</option>
+                    <option value="新北市">新北市</option>
+                    <option value="桃園市">桃園市</option>
                 </select>
                 <select name="township" id="township"> <!--台北區-->
-                    <option>請選擇鄉鎮區別Township</option>
-                    <option>文山區</option>
-                    <option>大安區</option>
-                    <option>信義區</option>
-                    <option>中山區</option>
-                    <option>松山區</option>
+                    <option value="">請選擇鄉鎮區別Township</option>
+                    <option value="文山區">文山區</option>
+                    <option value="大安區">大安區</option>
+                    <option value="信義區">信義區</option>
+                    <option value="中山區">中山區</option>
+                    <option value="松山區">松山區</option>
                 </select>
-                <label for="postcode">郵遞區號</label>
                 <input type="text" id="postcode" name="postcode" pattern="[0-9]{3}" placeholder="郵遞區號">
-                <input type="text" id="address2" name="address2" placeholder="例如：昌吉街55號2樓206室">
+                <input type="text" id="address" name="address" placeholder="例如：昌吉街55號2樓206室">
             </div>
             <div> <!--緊急聯絡人-->
                 <label for="emergency">緊急聯絡人姓名/Name of Emergency Contact</label>
@@ -218,29 +217,27 @@
         <section> <!--競賽項目資料-->
 
             <div>
-                <input type="checkbox" id="km" name="km">
-                <label for="km">9KM（NTD800）</label>
-                <select name="km_shirt" id="km_shirt">
+                <input type="checkbox" id="9km" name="9km">
+                <label for="9km">9KM（NTD800）</label>
+                <select name="9km_shirt" id="9km_shirt">
                     <option value="">請選擇衣服尺寸</option>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
                     <option value="L">L</option>
                     <option value="XL">XL</option>
-                    <option>2XL</option>
                 </select>
             </div>
             <div>
-                <input type="checkbox" id="km2" name="km2">
-                <label for="km2">3KM（NTD650）</label>
-                <select name="km2_shirt" id="km2_shirt">
+                <input type="checkbox" id="3km" name="3km">
+                <label for="3km">3KM（NTD650）</label>
+                <select name="3km_shirt" id="3km_shirt">
                     <option value="">請選擇衣服尺寸</option>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
                     <option value="L">L</option>
                     <option value="XL">XL</option>
-                    <option>2XL</option>
                 </select>
             </div>
 
